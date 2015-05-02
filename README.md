@@ -12,24 +12,28 @@ Learning should be very progressive and with an interactive step by step mode.
 
 App should be full of nice samples
 
+Keywords may be input with keyboard or selected within a direct list (mouse or touch).
+In touch mode, provide also a easy numeric keyboard, and use the usual one to input names.
+
 language in french :
 ```
 av avance <n>
 td tourne droite <n>
 tg tourne gauche <n>
-ve vide ecran
+ef efface
 lc leve crayon
 pc pose crayon
 co couleur <couleur>
 ep epaisseur <n>
-re repete <n> \n ... \n fin
-po pour <nom> \n ... \n fin
+de defait
+re repete <n> ... fin
+pf pour faire <nom> ... fin
 de dessine <nom>
 md mirroir droit <nom>
 mg mirroir gauche <nom>
 mh mirroir haut <nom>
 mb mirroir bas <nom>
-re recule n
+re recule <n>
 ```
 
 Example of interactive step by step learning :
@@ -54,5 +58,4 @@ OK, it turned, lets move it again now ; hit "forward 5"
 Ok, now may be it can turn back it right ? try to guess how to do it
 > turn right
 Well done ! You guessed it !
-...
 ```
